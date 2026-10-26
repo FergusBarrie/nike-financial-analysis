@@ -169,9 +169,9 @@ Excel formulas, so changing an assumption updates everything downstream, charts 
 The Margin bridge sheet contains a visible check cell that should always read zero — the
 three effects must add back to the reported change in operating income.
 
-## Honest note on this project
+## Note on this project
 
-I built this to learn how to read a set of filed accounts and turn them into an analysis.
-The [learning guide](LEARNING_GUIDE.md) explains every calculation, including the sign
-convention in the SEC data that I got wrong first time round and had to work out properly.
-I am happy to walk through the workbook formula by formula.
+This is a learning project built with AI assistance. The analysis is reproducible from the
+scripts here and the write-up only claims what the data supports, but the SQL and Python
+were not written by me. The [learning guide](LEARNING_GUIDE.md) explains how each part
+works.
