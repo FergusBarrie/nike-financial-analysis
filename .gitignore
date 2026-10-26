@@ -1,0 +1,15 @@
+# Fetched by scripts/00_download_data.py from the SEC API (about 3 MB)
+data/raw/*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*.xlsx

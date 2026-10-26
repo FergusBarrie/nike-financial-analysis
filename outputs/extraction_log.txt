@@ -1,0 +1,64 @@
+Company: NIKE, Inc. (CIK 320187)
+Fiscal years extracted: FY2020 to FY2026 (NIKE's year ends 31 May)
+
+Income statement
+  revenue                           7 of 7 years found
+  cost_of_sales                     7 of 7 years found
+  gross_profit                      7 of 7 years found
+  sg_and_a                          7 of 7 years found
+  demand_creation_expense           7 of 7 years found
+  operating_overhead                7 of 7 years found
+  net_interest_income               7 of 7 years found
+  other_income_net                  7 of 7 years found
+  pre_tax_income                    7 of 7 years found
+  income_tax_expense                7 of 7 years found
+  net_income                        7 of 7 years found
+Cash flow
+  operating_cash_flow               7 of 7 years found
+  capital_expenditure               7 of 7 years found
+  dividends_paid                    7 of 7 years found
+  share_buybacks                    7 of 7 years found
+Balance sheet
+  total_assets                      7 of 7 years found
+  current_assets                    7 of 7 years found
+  current_liabilities               7 of 7 years found
+  inventory                         7 of 7 years found
+  receivables                       7 of 7 years found
+  cash_and_equivalents              7 of 7 years found
+  long_term_debt                    7 of 7 years found
+  shareholders_equity               7 of 7 years found
+Per share
+  eps_diluted                       7 of 7 years found
+  diluted_shares                    7 of 7 years found
+
+Checks
+  max difference, revenue - cost of sales vs reported gross profit: 0.0m
+  max difference, demand creation + overhead vs reported SG&A:     0.0m
+  max difference, my operating income bridge vs reported pre-tax:  0.0m
+  max difference, pre-tax - tax vs reported net income:            0.0m
+  (anything under 1m is rounding in the filings)
+
+Reported figures (USD millions)
+             revenue  cost_of_sales  gross_profit  demand_creation_expense  operating_overhead  sg_and_a  operating_income  net_interest_income  other_income_net  pre_tax_income  income_tax_expense  net_income  eps_diluted
+fiscal_year                                                                                                                                                                                                                   
+2020         37403.0        21162.0       16241.0                   3592.0              9534.0   13126.0            3115.0                -89.0            -139.0          2887.0               348.0      2539.0          1.6
+2021         44538.0        24576.0       19962.0                   3114.0              9911.0   13025.0            6937.0               -262.0             -14.0          6661.0               934.0      5727.0          3.6
+2022         46710.0        25231.0       21479.0                   3850.0             10954.0   14804.0            6675.0               -205.0             181.0          6651.0               605.0      6046.0          3.8
+2023         51217.0        28925.0       22292.0                   4060.0             12317.0   16377.0            5915.0                  6.0             280.0          6201.0              1131.0      5070.0          3.2
+2024         51362.0        28475.0       22887.0                   4285.0             12291.0   16576.0            6311.0                161.0             228.0          6700.0              1000.0      5700.0          3.7
+2025         46309.0        26519.0       19790.0                   4689.0             11399.0   16088.0            3702.0                107.0              76.0          3885.0               666.0      3219.0          2.2
+2026         46398.0        26487.0       19911.0                   4754.0             11360.0   16114.0            3797.0                 50.0              53.0          3900.0               792.0      3108.0          2.1
+
+Margins and ratios
+             revenue_growth_pct  gross_margin_pct  sg_and_a_pct_of_revenue  operating_margin_pct  net_margin_pct  effective_tax_rate_pct  current_ratio  inventory_days  return_on_equity_pct  free_cash_flow
+fiscal_year                                                                                                                                                                                                  
+2020                        NaN             43.42                    35.09                  8.33            6.79                   12.05           2.48          127.07                   NaN          1399.0
+2021                      19.08             44.82                    29.24                 15.58           12.86                   14.02           2.72          101.79                 55.01          5962.0
+2022                       4.88             45.98                    31.69                 14.29           12.94                    9.10           2.63          121.81                 43.11          4430.0
+2023                       9.65             43.52                    31.98                 11.55            9.90                   18.24           2.72          106.68                 34.63          4872.0
+2024                       0.28             44.56                    32.27                 12.29           11.10                   14.93           2.40           96.38                 40.09          6617.0
+2025                      -9.84             42.73                    34.74                  7.99            6.95                   17.14           2.21          103.08                 23.29          3268.0
+2026                       0.19             42.91                    34.73                  8.18            6.70                   20.31           1.96          103.37                 22.14          2184.0
+
+Wrote E:\Portfolio\projects\02-nike-financial-analysis\data\clean\nike_financials.csv
+Wrote E:\Portfolio\projects\02-nike-financial-analysis\data\clean\nike_ratios.csv
